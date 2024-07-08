@@ -1,0 +1,146 @@
+body {
+    background-color:#ffffe6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+nav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+nav a {
+    
+    float: left;
+    font-size: large;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+    color: orange ;
+
+}
+
+.right-side {
+    display: flex;
+    justify-content: right;
+}
+#main-heading{
+    letter-spacing: 0.5px;
+}
+.definition{
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid orange;
+    margin-left: 20px;
+    margin-right: 50px;
+   
+}
+
+
+.form-box {
+    border: 2px solid #000;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 59, 250, 0.2);
+   
+}
+#male-or-female{
+  padding-left: 70px;
+
+
+}
+#male-or-female:hover{
+
+}
+.form-box label{
+    padding-top: 30px;
+    letter-spacing: 0.5px;
+}
+.form-box input{
+    margin-top: 10px;
+}
+
+.calculate-button-div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+#calculate-button{
+    width: 180px;
+    height: 45px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.5s ease;
+    transition: transform 0.5s linear;
+}
+#calculate-button:hover{
+    background-color: rgb(224, 152, 17);
+    transform: scale(1.2);
+
+}
+.bmi-result{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+p {
+    margin-bottom: 20px;
+}
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+#explanation{
+    position: relative;
+    width: 100%;
+    margin-top: 90px;
+    margin-left: px;
+}
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: larger;
+   
+}
+.footer a:hover {
+    color: orange;
+    
+  
+}
+
+#images img{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 50px
+}
