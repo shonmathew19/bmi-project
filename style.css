@@ -96,8 +96,8 @@ nav a:hover {
     transform: scale(1.04);
 
 }
-.bmi-result{
-    margin-top: 50px;
+#bmiResult,#bmiStatus{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
